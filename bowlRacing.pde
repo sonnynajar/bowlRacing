@@ -7,8 +7,8 @@ boolean moveRed, moveBlu, moveGre, moveYel, moveOra, movePur, isRunning;
 String runningTime, finalTime, folder, theme;
 StopWatchTimer sw;
 Minim minim;
-SoundFile file;
-AudioPlayer count;
+//SoundFile file;
+AudioPlayer count, file;
 
 void setup() {
   size(800,600);
@@ -17,6 +17,7 @@ void setup() {
   
   totalPlayers = 3;
   theme = "xmas";
+  s = width/200;
   
   loadImages();
   resizeImages(totalPlayers);
@@ -24,7 +25,7 @@ void setup() {
   placeRacers(totalPlayers);
   background(bg);
 
-  s = width/10;
+  
   speed = s;
   runningTime = "";
   resetVariables();

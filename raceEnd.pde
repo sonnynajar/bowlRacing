@@ -22,7 +22,7 @@ void checkWinner(){
       speed = 0;
       isRunning = false;
       sw.stop();
-      file.stop();
+      file.pause();
       winner = i;
     }
   }

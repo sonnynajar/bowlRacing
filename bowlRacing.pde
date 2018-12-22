@@ -14,8 +14,10 @@ void setup() {
   size(800,600);
   //fullScreen();
   minim = new Minim(this);
-  totalPlayers = 6;
-  theme = "turkey";
+  
+  totalPlayers = 3;
+  theme = "xmas";
+  
   loadImages();
   resizeImages(totalPlayers);
   createGrid(totalPlayers);

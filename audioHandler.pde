@@ -1,5 +1,5 @@
 void startMusic(){
-  file = new SoundFile(this, "C:\\Users\\rodav\\Documents\\Processing\\bowlRacing\\resources\\" + theme + "\\sound.mp3");
+  file = new SoundFile(this, "C:\\Users\\rodav\\Documents\\Processing\\bowlRacing\\resources\\" + theme + "\\song.mp3");
   file.play();
   file.rate(1.5);
 }
